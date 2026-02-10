@@ -49,6 +49,42 @@ Make sure you have the following installed:
 - pip (Python package manager)
 - Git
 
+## 📦 Downloaded / Required Dependencies
+
+### 🔹 Python Version
+- Python 3.7 or above
+
+Download:  
+https://www.python.org/downloads/
+
+---
+
+### 🔹 Python Packages
+Install the following dependencies using `pip`:
+
+```bash
+pip install seaborn
+pip install imagehash
+pip install opencv-python
+pip install flask
+pip install mysql-connector
+Or install all at once:
+
+pip install seaborn imagehash opencv-python flask mysql-connector
+🔹 Automated Package Installation
+This project includes a package installer script:
+
+python packages.py
+This script will:
+
+Show existing pip packages
+
+Upgrade pip
+
+Install all required dependencies automatically
+
+
+
 Check installation:
 ```bash
 python --version
