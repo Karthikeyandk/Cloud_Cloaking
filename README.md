@@ -89,3 +89,9 @@ Check installation:
 ```bash
 python --version
 pip --version
+
+---
+
+## 📄 License
+
+This portfolio is created for personal and professional showcase purposes.
